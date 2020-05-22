@@ -1,0 +1,13 @@
+parsing
+flex pass 1
+flex pass 2
+Output pass
+Writing prg file: mainv2.prg
+
+Memory Map
+----------
+Default-segment:
+  $0400-$040d Basic Loader, sys 1040
+  $0410-$1c2f main program
+
+Writing Vice symbol file: mainv2.vs

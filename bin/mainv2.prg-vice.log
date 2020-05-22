@@ -1,0 +1,79 @@
+ 
+*** VICE Version 3.0, rev 32522M ***
+OS compiled for: Mac OS X 10.11 (El Capitan)
+GUI compiled for: SDL
+CPU compiled for: x86_64
+Compiler used: clang 8.0.0
+Current OS: *nix
+Current CPU: Intel Pentium Pro/II/III/Celeron/Core/Core 2/Atom
+ 
+Welcome to xpet, the free portable PET Emulator.
+ 
+Current VICE team members:
+Andreas Matthies, Martin Pottendorfer, Marco van den Heuvel, Fabrizio Gennari, 
+Groepaz, Marcus Sutton, Kajtar Zsolt, Stefan Haubenthal, BSzili, AreaScout, 
+Bas Wassink.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/chargen'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/basic4'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/kernal4'.
+PETMEM: Identified Kernal 4 ROM by checksum.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/edit4b80'.
+PETMEM: Identified 80 columns editor by checksum.
+PETMEM: ROM screen width is 80.
+PET: Initializing IEEE488 bus...
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PRINTER/mps803'.
+Palette: Loading palette `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PRINTER/mps803.vpl'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PRINTER/nl10-cbm'.
+Palette: Loading palette `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PRINTER/nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PRINTER/1520.vpl'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/DRIVES/dos2031'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/DRIVES/dos2040'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/DRIVES/dos3040'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/DRIVES/dos4040'.
+Loading system file `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/DRIVES/dos1001'.
+Drive: Finished loading ROM images.
+opening dynamic library libmp3lame.dylib failed!
+ERROR setting up dynamic lame lib!
+Sound: Available sound devices: sdl dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+SDLJoystick: No joysticks found
+SDLKeyboard: Warning - Failed to open `/Users/Steve/.vice/sdl-hotkey-PET.vkm'.
+Keyboard: Loading keymap `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/sdl_sym.vkm'.
+Keyboard:  including keymap `/Applications/Vice/xpet.app/Contents/MacOS/../Resources/ROM/PET/sdl_buuk_sym.vkm'.
+SDLVideo: Warning - bitdepth not set for OpenGL, trying 32...
+SDLVideo: Crtc (active) 704x532 32bpp OpenGL 
+AUTOSTART: Autodetecting image type of `mainv2.prg'.
+Filesystem Image: Unknown disk image `mainv2.prg'.
+Tape: Error - Cannot open file `mainv2.prg'
+AUTOSTART: Loading PRG file `mainv2.prg' with autostart disk image.
+AUTOSTART: Turning true drive emulation off.
+AUTOSTART: Turning true drive emulation on.
+AUTOSTART: Resetting the machine to autostart '*'
+AUTOSTART: Turning Warp mode on
+AUTOSTART: `mainv2.prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Drive 8: RESET.
+Drive 8: RESET.
+Sound: Opened device `sdl', speed 44100Hz, fragment size 5.8ms, buffer size 98ms
+reSID: MOS6581, filter on, sampling rate 44100Hz - resampling, pass to 19845Hz
+PET: cycles per frame set to 12443, refresh to 80.366Hz
+PET: cycles per frame set to 12450, refresh to 80.321Hz
+PET: cycles per frame set to 19729, refresh to 50.686Hz
+PET: cycles per frame set to 20032, refresh to 49.920Hz
+AUTOSTART: Loading program '*'
+AUTOSTART: Searching for ...
+AUTOSTART: Loading
+AUTOSTART: Entered ROM at $e504
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off
+AUTOSTART: Starting program.
+AUTOSTART: Done.
+
+Exiting...
+Sound: Closing device `sdl'
+
