@@ -12,4 +12,4 @@ Tools:  MicroSoft VS Code,
         
  To Do:
  Saving highscore to disk, maybe even a highscore table
- Port to C64. Code has reasonable sepration between TETRIS logic and Presentation/Input - so it should work!
+ Port to C64. Code has reasonable separation between TETRIS logic and Presentation/Input - so it should work!
