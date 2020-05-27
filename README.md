@@ -7,6 +7,7 @@ Language:
 
 6502 assembly language
 
+(compiled .d64 and .prg binaries are in the .bin folder)
 
 
 Tools:
