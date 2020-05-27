@@ -1,8 +1,13 @@
 # PETRIS
 
-Project: TETRIS game for 80 column CBM PET. Includes "modern" TETRIS functionality like "next" and "hold".
+Project: 
+TETRIS game for 80 column CBM PET. Includes "modern" TETRIS functionality like "next" and "hold".
 
-Language: 6502 assembly language
+Language: 
+
+6502 assembly language
+
+
 
 Tools:
 
